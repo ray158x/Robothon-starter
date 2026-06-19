@@ -288,7 +288,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--urdf", type=Path, default=DEFAULT_URDF)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--trajectory", type=Path, default=DEFAULT_TRAJECTORY)
-    parser.add_argument("--duration", type=float, default=6.0)
+    parser.add_argument("--duration", type=float, default=12.0)
     parser.add_argument("--fps", type=int, default=30)
     parser.add_argument("--width", type=int, default=1280)
     parser.add_argument("--height", type=int, default=720)
